@@ -1,0 +1,253 @@
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+}
+dd
+{
+	padding-left: 20px;
+}
+h1, h2, h3, h4
+{
+	font-weight: normal;
+}
+
+body
+{
+	font-family: "Open Sans",sans-serif;
+	color: #666;
+	font-size: 14px;
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
+	opacity: 0.8;
+}
+a:hover
+{
+	opacity: 0.4;
+}
+#main-header
+{
+	background-color: #0075AB;
+	color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 10px;
+}
+#main-header:after
+{
+	clear: both;
+}
+#main-header:after,#main-header:before
+{
+	content: " ";
+	display: table;
+}
+#main-header-container
+{
+	overflow: hidden;
+	height: auto;
+}
+#logo-wrapper
+{
+height: 50px;
+max-width: 160px;
+}
+#logo-wrapper, #main-heading-container
+{
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 10px auto;
+}
+#mts-logo
+{
+	height: 100%;
+}
+#main-nav
+{
+	height: auto;
+	overflow: hidden;
+}
+#main-nav ul
+{
+	width: auto;
+	overflow: hidden;
+	float: right;
+}
+#main-nav ul>li, #footer-nav ul>li
+{
+	display: block;
+	list-style: none;
+	float: left;
+	margin-right: 16px;
+	padding: 1px;
+}
+.distinct, #main-content>header, #main-content>section
+{
+	box-shadow: 1px 1px 4px #555;
+	margin: 5px;
+}
+header
+{
+	}
+section.distinct
+{
+	background-color: #fff;
+}
+footer
+{
+	font-size: smaller;				
+}
+#main-footer
+{
+	margin-top: 20px;
+}
+#main-footer-container
+{
+	border-top: 1px solid #005678;	
+}
+#nav-div
+{
+	height: auto;
+	overflow: hidden;
+	background-color: #005678;
+	box-shadow: 0px 1px 5px #005678;
+	padding: 5px;
+}
+input, select, .submit-button
+{
+	box-sizing: border-box;
+	height: 30px;
+}
+input, select
+{
+	border: 1px solid #e5e5e5;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.inline-block
+{
+	display: inline-block;
+}
+.submit-button, .action-button
+{
+	background-color: #589D3E;
+	border:none;
+	border-radius: 2px;
+	color: white;
+}
+.vpadded
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.clear:after
+{
+	clear: both;
+}
+.clear:after,.clear:before
+{
+	content: " ";
+	display: table;
+}
+.clear-both
+{
+	clear: both;
+}
+.clear-left
+{
+	clear: left;
+}
+.clear-right
+{
+	clear: right;
+}
+.center
+{
+	width: 100%;
+	max-width: 1000px;
+	min-width: 250px;
+	margin: 0px auto;
+}
+.linear
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.padded
+{
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.text-left
+{
+	text-align: left;
+}
+.text-right
+{
+	text-align: right;
+}
+.prompt-container
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(63,63,63,0.8);
+}
+.prompt
+{
+	position: fixed;
+	margin: auto;
+	top: 10%;
+	left: 0px;
+	right: 0px;
+	overflow: auto;
+	max-height: 90%;
+}
+.prompt-form-div
+{
+	max-width: 250px;
+	width: 100%;
+}
+.prompt-form
+{
+	width: 100%;
+}
+.prompt-form input, .prompt-form textarea
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.close-button
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0px;
+}
+.small
+{
+	font-size: smaller;
+}
+@media (max-width: 500px){
+	#main-nav, #logo-wrapper2
+	{
+		width: 100%;
+		float: none;
+	}
+	#main-nav ul
+	{
+		float: none;
+	}
+}
